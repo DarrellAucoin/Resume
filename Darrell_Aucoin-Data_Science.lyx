@@ -192,7 +192,7 @@ http://daucoin.getforge.io
 \end_inset
 
 
-\begin_inset VSpace 15pt
+\begin_inset VSpace 3pt
 \end_inset
 
 
@@ -290,7 +290,8 @@ Prospective Data Scientist with Masters Degree in Applied Computing and
 \end_layout
 
 \begin_layout Itemize
-Knowledge of a wide variety of statistical models learned though B.
+Knowledge of a wide variety of machine learning and statistical models learned
+ though Masters Degree in Applied Computing and B.
  Math in Statistics and Computational Math
 \begin_inset VSpace -4pt
 \end_inset
@@ -374,8 +375,9 @@ backgroundcolor "none"
 status open
 
 \begin_layout Description
-Modelling: Studied various statistical models through Bachelor of Math in
- Statistics.
+Modelling: Studied various machine learning and statistical models through
+ Masters in Applied Computing and Bachelor of Math in Statistics.
+ I also created various models for Datalogue.
 \begin_inset VSpace -4pt
 \end_inset
 
@@ -414,7 +416,6 @@ Communication: Made various presentations to classes, clubs, and conferences.
 
 \begin_layout Description
 Visualization: Taken a statistics course on Data Visualization.
- 
 \begin_inset VSpace -4pt
 \end_inset
 
@@ -422,8 +423,8 @@ Visualization: Taken a statistics course on Data Visualization.
 \end_layout
 
 \begin_layout Description
-Programming: Experience data analytics programming languages: R, Python,
- Matlab, and Apache Spark.
+Programming: Experienced in various data analytics programming languages:
+ R, Python, Matlab, and Apache Spark.
 \begin_inset VSpace -4pt
 \end_inset
 
@@ -683,10 +684,6 @@ literal "false"
 
 
 \series default
-Fall
-\noun on
- 2016-
-\noun default
 2018
 \emph on
 
