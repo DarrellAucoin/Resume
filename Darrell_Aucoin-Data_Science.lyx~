@@ -1,0 +1,1962 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{lastpage}
+\usepackage{amsmath}
+\newcommand{\ø}{\raisebox{.3ex}{\tiny$\; \bullet \;$}}
+\renewcommand{\arraystretch}{1.25}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\headsep 10pt
+\chead{\small{\textrm{\textit{Darrell Aucoin  }}}}
+\cfoot{}
+%\usepackage{mathpazo}
+%\usepackage[english]{babel}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "palatino" "default"
+\font_sans "cmss" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5cm
+\topmargin 1.4cm
+\rightmargin 1.5cm
+\bottommargin 1.4cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\html_latex_start <span class='latex'>
+\html_latex_end </span>
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size large
+\noun on
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Make sure to read all the Notes if you are lost regarding the structure
+ and formatting.
+ 
+\end_layout
+
+\end_inset
+
+
+\size huge
+Darrell Aucoin
+\size large
+
+\begin_inset Newline newline
+\end_inset
+
+
+\noun default
+4119 Esplanade Avenue, Montreal, QC, H2W 1S9
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\size large
+562 Durham Cres, Apt.
+ 308, Woodstock, ON, N4S 5X3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Tel: (514) 802-1234, Email: 
+\begin_inset CommandInset href
+LatexCommand href
+name "darrell.aucoin@edu.uwaterloo.ca"
+target "darrell.aucoin@edu.uwaterloo.ca"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+, GitHub: 
+\begin_inset CommandInset href
+LatexCommand href
+name "DarrellAucoin"
+target "https://github.com/DarrellAucoin"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset Newline newline
+\end_inset
+
+Kaggle: 
+\begin_inset CommandInset href
+LatexCommand href
+name "DarrellAucoin"
+target "https://www.kaggle.com/normallysane"
+literal "false"
+
+\end_inset
+
+, Personal: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://daucoin.getforge.io
+\end_layout
+
+\end_inset
+
+
+\noun on
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset VSpace 15pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Objective
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+To further develop my machine learning knowledge, devise new machine learning
+ models and implement them.
+\begin_inset VSpace -2pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Executive Summary
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Prospective Data Scientist with Masters Degree in Applied Computing and
+ Bachelor degree in Statistics and Computational Math with experience in
+ R, Python, SQL, Apache Spark, and C++
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Knowledge of a wide variety of statistical models learned though B.
+ Math in Statistics and Computational Math
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Demonstrated leadership and management skills as President of 
+\begin_inset CommandInset href
+LatexCommand href
+name "Statistics Club"
+target "http://csclub.uwaterloo.ca/~statsclub/"
+literal "false"
+
+\end_inset
+
+ for 2 years
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Passion for communicating ideas and concepts via presentations/tutorials
+ for the UW Statistics Club as well as national conferences 
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Data Science Skills
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "s"
+use_parbox 0
+use_makebox 0
+width "78line%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Description
+Modelling: Studied various statistical models through Bachelor of Math in
+ Statistics.
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+simpilify
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Data
+\begin_inset space ~
+\end_inset
+
+Wrangling: Cleaned data related to projects using SQL, Spark, R and Python.
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Communication: Made various presentations to classes, clubs, and conferences.
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Visualization: Taken a statistics course on Data Visualization.
+ 
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Programming: Experience data analytics programming languages: R, Python,
+ Matlab, and Apache Spark.
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Technology: Built a small Hadoop cluster using single board computers.
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "22line%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align right
+\begin_inset Graphics
+	filename ../../../Dropbox/Resumes/Data_Science_Radar.pdf
+	scale 55
+
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -30pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 1000000000
+\noindent
+\begin_inset VSpace -41pt
+\end_inset
+
+
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Relevant Work Experience
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Machine Learning Researcher
+\series default
+, Interdata Laboratories
+\shape italic
+\emph on
+, Montreal, QC.
+\series bold
+\shape default
+\emph default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May 2017-Aug 2018
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\shape italic
+\emph on
+Research, train, deploy Machine Learning models to help automatically prepare
+ data
+\shape default
+\emph default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Designed and Implimented a segmentation machine learning model that breaks
+ a string into it's components
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Created models on anomaly detection for text columnar data, working with
+ noisy data, and classifying whole columns of data
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Software Adviser
+\series default
+, Statistical Consulting Centre, University of Waterloo
+\shape italic
+\emph on
+, Waterloo, ON.
+\series bold
+\shape default
+\emph default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\shape italic
+\emph on
+Provided software advice on R, SQL, and SPSS for graduate students
+\shape default
+\emph default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Education
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Master of Science in Applied Computing"
+target "http://web.cs.toronto.edu/Graduate/prospective_gradwhy/mscac.htm"
+literal "false"
+
+\end_inset
+
+, Data Science Concentration
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+Fall
+\noun on
+ 2016-
+\noun default
+2018
+\emph on
+
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\emph on
+University of Toronto, Toronto, Ontario
+\series bold
+.
+ 
+\series default
+
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Relevant
+\begin_inset space ~
+\end_inset
+
+Courses: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Topics in ML: Interference & Generative Models"
+target "http://www.cs.toronto.edu/~duvenaud/courses/csc2541/index.html"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Algorithms for Genome Sequence Analysis"
+target "https://jts.github.io/csc2417/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Probabilistic Learning and Reasoning"
+target "http://www.cs.toronto.edu/~duvenaud/courses/csc412/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Fundamentals of Statistical Genetics"
+target "http://www.utstat.toronto.edu/sun/funstatgene-index.html"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+
+\series bold
+Bachelor of Mathematics with Major in 
+\begin_inset CommandInset href
+LatexCommand href
+name "Statistics"
+target "https://ugradcalendar.uwaterloo.ca/page/MATH-Statistics-Overview-1"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Computational Math"
+target "https://ugradcalendar.uwaterloo.ca/page/MATH-Computational-Mathematics-Overview-1"
+literal "false"
+
+\end_inset
+
+ with 
+\begin_inset CommandInset href
+LatexCommand href
+name "CS Minor"
+target "https://ugradcalendar.uwaterloo.ca/page/MATH-Computer-Science-Minor-2"
+literal "false"
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+\noun on
+201
+\noun default
+5
+\emph on
+
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\emph on
+University of Waterloo, Waterloo, Ontario
+\series bold
+.
+ 
+\series default
+
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Relevant
+\begin_inset space ~
+\end_inset
+
+Courses: Inference for Big Data, Classification (Machine Learning), Data
+ Visualisation, Function Estimation, Data Types (Python), Object-Orientated
+ Programming (C++), Databases (SQL), Spatial Data Analysis, Longitudinal
+ Data Analysis, Computational Linear Algebra
+\emph on
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Mechanical Engineering Technology (Manufacturing) Degree"
+target "http://www.cna.nl.ca/programs-courses/Show-Program-Details.aspx?program=55"
+literal "false"
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2005
+\emph on
+
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\emph on
+College of the North Atlantic.
+ St.
+ John's, NL
+\end_layout
+
+\end_inset
+
+
+\emph default
+
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+
+\series bold
+Research Experience
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Undergraduate Research Assistant
+\series default
+, Shoja'eddin Chenouri: University of Waterloo.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May-Aug 2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Worked with Apache Spark on various data projects
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Undergraduate Research Assistant
+\series default
+, Shoja'eddin Chenouri: University of Waterloo.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May-Aug 201
+\noun on
+4
+\noun default
+
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Investigated and wrote supplementary material on various Big Data Tools
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Projects and Extracurricular Activities
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Missing Data Imputation Using Gaussian Mixtures
+\series default
+: Investigated MCMC gaussian mixture models for data imputation.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2016
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+CSC 2541: Differentiable Inference and Generative Models Project
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Review of Genotype Imputation Algorithms
+\series default
+: Compared various genotype imputation algorithms
+\series bold
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2016
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+CSC 2417H: Algorithms for Genome Sequence Analysis Project
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Statistics Club"
+target "http://csclub.uwaterloo.ca/~statsclub/"
+literal "false"
+
+\end_inset
+
+ President
+\series default
+, University of Waterloo
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2014-15
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Lead a team in providing various statistics related educational and social
+ activities for fellow students.
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
+\noindent
+Presented tutorials on 
+\begin_inset CommandInset href
+LatexCommand href
+name "SQL"
+target "https://github.com/NormallySane/IntroSQL/wiki"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Hadoop"
+target "https://github.com/NormallySane/IntroHadoop/wiki"
+literal "false"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Big Data"
+target "https://github.com/NormallySane/Big_Data_Presentation/wiki"
+literal "false"
+
+\end_inset
+
+ (videos up on YouTube Channel 
+\begin_inset CommandInset href
+LatexCommand href
+name "“UW Stats Club”"
+target "https://www.youtube.com/channel/UCrEjoW5YZj_IMAnxgOfXL-g"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Executive Evaluation Committee
+\series default
+ 
+\series bold
+Member
+\series default
+, MathSoc, University of Waterloo
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+Fall 2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Evaluated MathSoc executives and provided constructive criticisms and recommenda
+tions
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+Small
+\begin_inset space ~
+\end_inset
+
+Hadoop
+\begin_inset space ~
+\end_inset
+
+Cluster
+\series default
+: Created a small Hadoop cluster using single board computers.
+ 
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May
+\begin_inset space ~
+\end_inset
+
+2015
+\begin_inset Newline newline
+\end_inset
+
+Funded by the Math Endowment Fund (MEF).
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+Determine
+\begin_inset space ~
+\end_inset
+
+Influence
+\begin_inset space ~
+\end_inset
+
+in
+\begin_inset space ~
+\end_inset
+
+Social
+\begin_inset space ~
+\end_inset
+
+Media
+\series default
+: Ranked Twitter users using machine learning algorithms 
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2014
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Stat 441: Classification Project
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Honours and Awards
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -16pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "NSERC Undergraduate Student Research Award"
+target "http://www.nserc-crsng.gc.ca/Students-Etudiants/UG-PC/USRA-BRPC_eng.asp"
+literal "false"
+
+\end_inset
+
+
+\series default
+: 
+\size footnotesize
+Natural Sciences and Engineering Research Council of Canada.
+\series bold
+\size default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Received 2 awards for work underneath a supervisor at University of Waterloo
+ 
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2014
+\begin_inset Newline newline
+\end_inset
+
+(see Research Experience) 
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Winston and Diana Cherry Award in Statistics"
+target "https://ugradcalendar.uwaterloo.ca/page/Upper-Year-Scholarships-and-Awards-for-Mathematics"
+literal "false"
+
+\end_inset
+
+
+\series default
+: University of Waterloo
+\series bold
+.
+
+\series default
+ 
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2013
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+For
+\series bold
+ 
+\series default
+highest mark of 98 in a statistics course (Computational Inference)
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Jason Lang Scholarship"
+target "http://studentaid.alberta.ca/scholarships/alberta-scholarships/?SK=214"
+literal "false"
+
+\end_inset
+
+
+\series default
+: Student Aid Alberta.
+ 
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2012
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+For outstanding academic achievements
+\series bold
+ 
+\series default
+in undergraduate
+\series bold
+ 
+\series default
+studies
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+Dean's
+\begin_inset space ~
+\end_inset
+
+List
+\series default
+: University of Alberta.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2012
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+Honourable
+\begin_inset space ~
+\end_inset
+
+Mention
+\series default
+: MCM: The Mathematical Contest in Modelling.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2012
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Academic Conferences
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -16pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset href
+LatexCommand href
+name "PyCon Canada"
+target "https://2016.pycon.ca/en/"
+literal "false"
+
+\end_inset
+
+:
+\series bold
+ 
+\series default
+Toronto, Canada
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2016
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Python conference on various topics: new features for python, neural networks,
+ etc
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset href
+LatexCommand href
+name "Big Data Phenotyping: Opportunities, Analytic Challenges, and Solutions"
+target "http://www.dlsph.utoronto.ca/event/big-data-phenotyping-opportunities-analytic-challenges-and-solutions/"
+literal "false"
+
+\end_inset
+
+: Toronto, Canada
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2016
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Conference on various issues related to big data and health research
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset CommandInset href
+LatexCommand href
+name "SORA/TABA Annual Workshop 2016 and DLSPH Biostatistics Research Day"
+target "http://www.dlsph.utoronto.ca/event/sora-taba-annual-workshop-2016-and-dlsph-biostatistics-research-day/"
+literal "false"
+
+\end_inset
+
+: University of Toronto.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2016
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Workshop on causal inference in observational studies
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Undergraduate Research Opportunities Conference (UROC 2015)"
+target "https://cs.uwaterloo.ca/conferences/uroc/2016/"
+literal "false"
+
+\end_inset
+
+
+\series default
+: University of Waterloo
+\series bold
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Performed analytics on protein data as part of a 3-person team
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Canadian Undergraduate Mathematics Conference (CUMC 2015)"
+target "http://cumc.math.ca/2015/"
+literal "false"
+
+\end_inset
+
+
+\series default
+: University of Alberta.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Presented a talk on MapReduce and the basics of distributed computing
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+Canadian
+\begin_inset space ~
+\end_inset
+
+Undergraduate
+\begin_inset space ~
+\end_inset
+
+Mathematics
+\begin_inset space ~
+\end_inset
+
+Conference
+\begin_inset space ~
+\end_inset
+
+(CUMC
+\begin_inset space ~
+\end_inset
+
+2014)
+\series default
+: University of Carlton.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2014
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Presentations
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -16pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Intro to SQL"
+target "https://github.com/DarrellAucoin/IntroSQL/wiki"
+literal "false"
+
+\end_inset
+
+
+\series default
+: 5-hour presentation on basic concepts and commands for querying in SQL.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2014-15
+\begin_inset Newline newline
+\end_inset
+
+Statistics Club, University of Waterloo.
+ 
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+CUMC
+\begin_inset space ~
+\end_inset
+
+2015
+\series default
+: MapReduce and the basics of distributed computing.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset Newline newline
+\end_inset
+
+Canadian Undergraduate Mathematics Conference, University of Alberta
+\series bold
+.
+\series default
+
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Big Data Concepts & Tools"
+target "https://github.com/DarrellAucoin/Big_Data_Presentation/wiki"
+literal "false"
+
+\end_inset
+
+
+\series default
+: MapReduce, the basics of distributed computing and some big data tools.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset Newline newline
+\end_inset
+
+Statistics Club, University of Waterloo
+\series bold
+.
+\series default
+
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 10000000000
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Intro to Hadoop"
+target "https://github.com/DarrellAucoin/IntroHadoop/wiki"
+literal "false"
+
+\end_inset
+
+
+\series default
+: MapReduce and basic overview of commands for Hadoop.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset Newline newline
+\end_inset
+
+Statistics Club, University of Waterloo.
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
