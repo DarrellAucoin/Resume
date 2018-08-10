@@ -152,7 +152,11 @@ literal "false"
 
 \end_inset
 
-, GitHub: 
+, 
+\begin_inset Newline newline
+\end_inset
+
+GitHub: 
 \begin_inset CommandInset href
 LatexCommand href
 name "DarrellAucoin"
@@ -161,11 +165,7 @@ literal "false"
 
 \end_inset
 
-, 
-\begin_inset Newline newline
-\end_inset
-
-Kaggle: 
+, Kaggle: 
 \begin_inset CommandInset href
 LatexCommand href
 name "DarrellAucoin"
@@ -202,6 +202,14 @@ https://daucoin.getforge.io
 \noindent
 
 \series bold
+Relevant Work Experience
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
 Objective
 \series default
 
@@ -224,14 +232,14 @@ height "1pt"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset VSpace -4pt
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
 To further develop my machine learning knowledge, devise new machine learning
  models and implement them.
@@ -241,7 +249,7 @@ To further develop my machine learning knowledge, devise new machine learning
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
 
 \series bold
@@ -267,7 +275,7 @@ height "1pt"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset VSpace -8pt
 \end_inset
 
@@ -320,6 +328,231 @@ literal "false"
 Passion for communicating ideas and concepts via presentations/tutorials
  for the UW Statistics Club as well as national conferences 
 \begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Machine Learning Researcher
+\series default
+, Interdata Laboratories
+\shape italic
+\emph on
+ (
+\begin_inset CommandInset href
+LatexCommand href
+name "Datalogue"
+target "https://www.datalogue.io/"
+literal "false"
+
+\end_inset
+
+), Montreal, QC.
+\series bold
+\shape default
+\emph default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May 2017-Aug 2018
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\shape italic
+\emph on
+Researched, trained, and deployed Machine Learning models to help automatically
+ prepare data
+\shape default
+\emph default
+
+\begin_inset VSpace -6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Designed machine learning models that will become a product/service:
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\noindent
+Segmentation machine learning model that breaks a string into it's components
+\begin_inset VSpace -2pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Anomaly detection for text columnar data using word and character embeddings
+ 
+\begin_inset VSpace -6pt
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Improved existing machine learning models:
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Carried out experiments on using different character mappings for character-wise
+ Convolutional Neural Network helping to increase classification accuracy
+ of models
+\begin_inset VSpace -2pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cleaned data using SQL, and Apache Spark
+\begin_inset VSpace -6pt
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Experimented with various machine learning models:
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Created models designed to help training classifiers when working with noisy
+ data (internship project)
+\begin_inset VSpace -2pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Created a model for classifying whole columns of text data 
+\begin_inset VSpace -6pt
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Investigated layer activation of Neural Networks, helping Datalogue understand
+ its models better
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Software Adviser
+\series default
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Statistical Consulting Centre"
+target "https://uwaterloo.ca/statistical-consulting-and-collaborative-research-unit/"
+literal "false"
+
+\end_inset
+
+, University of Waterloo
+\shape italic
+\emph on
+, Waterloo, ON.
+\series bold
+\shape default
+\emph default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2015
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+
+\shape italic
+\emph on
+Provided software advice on R, SQL, and SPSS for graduate students
+\shape default
+\emph default
+
+\begin_inset VSpace -8pt
 \end_inset
 
 
@@ -493,141 +726,6 @@ status open
 
 
 \begin_inset VSpace -4pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-Relevant Work Experience
-\series default
-
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100line%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -4pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-Machine Learning Researcher
-\series default
-, Interdata Laboratories
-\shape italic
-\emph on
- (Datalogue), Montreal, QC.
-\series bold
-\shape default
-\emph default
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\series default
-May 2017-Aug 2018
-\begin_inset VSpace -12pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-
-\shape italic
-\emph on
-Research, train, deploy Machine Learning models to help automatically prepare
- data
-\shape default
-\emph default
-
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Designed and Implimented a segmentation machine learning model that breaks
- a string into it's components
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Created models on anomaly detection for text columnar data, working with
- noisy data, and classifying whole columns of data
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-Software Adviser
-\series default
-, Statistical Consulting Centre, University of Waterloo
-\shape italic
-\emph on
-, Waterloo, ON.
-\series bold
-\shape default
-\emph default
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\series default
-2015
-\begin_inset VSpace -12pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-
-\shape italic
-\emph on
-Provided software advice on R, SQL, and SPSS for graduate students
-\shape default
-\emph default
-
-\begin_inset VSpace -8pt
 \end_inset
 
 
@@ -982,14 +1080,6 @@ Investigated and wrote supplementary material on various Big Data Tools
 
 \begin_layout Standard
 \noindent
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
 
 \series bold
 Projects and Extracurricular Activities
@@ -1119,6 +1209,20 @@ status open
 
 \begin_layout Itemize
 \noindent
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
 Presented tutorials on 
 \begin_inset CommandInset href
 LatexCommand href
@@ -1156,46 +1260,6 @@ literal "false"
 \end_inset
 
 ).
-\end_layout
-
-\end_inset
-
-
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-Executive Evaluation Committee
-\series default
- 
-\series bold
-Member
-\series default
-, MathSoc, University of Waterloo
-\series bold
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\series default
-Fall 2015
-\begin_inset VSpace -12pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Evaluated MathSoc executives and provided constructive criticisms and recommenda
-tions
 \begin_inset VSpace -8pt
 \end_inset
 
@@ -1282,6 +1346,47 @@ Media
 \begin_layout Itemize
 \noindent
 Stat 441: Classification Project
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Executive Evaluation Committee
+\series default
+ 
+\series bold
+Member
+\series default
+, MathSoc, University of Waterloo
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+Fall 2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Evaluated MathSoc executives and provided constructive criticisms and recommenda
+tions
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset VSpace -8pt
 \end_inset
 
@@ -1528,6 +1633,13 @@ Mention
 \noindent
 
 \series bold
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
 Academic Conferences
 \series default
 
@@ -1550,7 +1662,7 @@ height "1pt"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset VSpace -16pt
 \end_inset
 
@@ -1781,7 +1893,7 @@ Conference
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
 
 \series bold
@@ -1807,7 +1919,7 @@ height "1pt"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset VSpace -16pt
 \end_inset
 
@@ -1950,6 +2062,11 @@ literal "false"
 
 Statistics Club, University of Waterloo.
 \begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
