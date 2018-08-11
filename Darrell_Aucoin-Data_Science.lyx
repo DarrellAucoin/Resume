@@ -559,6 +559,103 @@ Provided software advice on R, SQL, and SPSS for graduate students
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\series bold
+Research Experience
+\series default
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100line%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Undergraduate Research Assistant
+\series default
+, Shoja'eddin Chenouri: University of Waterloo.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May-Aug 2015
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Worked with Apache Spark on various data projects
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Undergraduate Research Assistant
+\series default
+, Shoja'eddin Chenouri: University of Waterloo.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+May-Aug 201
+\noun on
+4
+\noun default
+
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Investigated and wrote supplementary material on various Big Data Tools
+\begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 Data Science Skills
@@ -726,6 +823,13 @@ status open
 
 
 \begin_inset VSpace -4pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -985,103 +1089,6 @@ College of the North Atlantic.
 \noindent
 
 \series bold
-Research Experience
-\series default
-
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100line%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace -4pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-Undergraduate Research Assistant
-\series default
-, Shoja'eddin Chenouri: University of Waterloo.
-\series bold
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\series default
-May-Aug 2015
-\begin_inset VSpace -12pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Worked with Apache Spark on various data projects
-\begin_inset VSpace -8pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-Undergraduate Research Assistant
-\series default
-, Shoja'eddin Chenouri: University of Waterloo.
-\series bold
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\series default
-May-Aug 201
-\noun on
-4
-\noun default
-
-\begin_inset VSpace -12pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Investigated and wrote supplementary material on various Big Data Tools
-\begin_inset VSpace -4pt
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
 Projects and Extracurricular Activities
 \series default
 
@@ -1115,7 +1122,53 @@ height "1pt"
 \noindent
 
 \series bold
-Missing Data Imputation Using Gaussian Mixtures
+\begin_inset CommandInset href
+LatexCommand href
+name "Autmatic Data Cleaning"
+target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Automatic_data_cleaning.pdf"
+literal "false"
+
+\end_inset
+
+
+\series default
+: Investigated a model to correct noisy labels in training data.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2016
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Probabilistic Learning and Reasoning Course Project
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\begin_inset CommandInset href
+LatexCommand href
+name "Imputation of Missing Data using Gaussian Mixtures"
+target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Database_Reconstuction.pdf"
+literal "false"
+
+\end_inset
+
+
 \series default
 : Investigated MCMC gaussian mixture models for data imputation.
 \series bold
@@ -1134,7 +1187,7 @@ Missing Data Imputation Using Gaussian Mixtures
 
 \begin_layout Itemize
 \noindent
-CSC 2541: Differentiable Inference and Generative Models Project
+Differentiable Inference and Generative Models course Project
 \begin_inset VSpace -8pt
 \end_inset
 
@@ -1145,7 +1198,15 @@ CSC 2541: Differentiable Inference and Generative Models Project
 \noindent
 
 \series bold
-Review of Genotype Imputation Algorithms
+\begin_inset CommandInset href
+LatexCommand href
+name "Review of Genotype Imputation Algorithms"
+target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Genome_Imputation.pdf"
+literal "false"
+
+\end_inset
+
+
 \series default
 : Compared various genotype imputation algorithms
 \series bold
@@ -1164,7 +1225,7 @@ Review of Genotype Imputation Algorithms
 
 \begin_layout Itemize
 \noindent
-CSC 2417H: Algorithms for Genome Sequence Analysis Project
+Algorithms for Genome Sequence Analysis course Project
 \begin_inset VSpace -8pt
 \end_inset
 
@@ -1310,23 +1371,15 @@ Funded by the Math Endowment Fund (MEF).
 \noindent
 
 \series bold
-Determine
-\begin_inset space ~
+\begin_inset CommandInset href
+LatexCommand href
+name "Determine Influence in Social Media"
+target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Twitter_Project.pdf"
+literal "false"
+
 \end_inset
 
-Influence
-\begin_inset space ~
-\end_inset
 
-in
-\begin_inset space ~
-\end_inset
-
-Social
-\begin_inset space ~
-\end_inset
-
-Media
 \series default
 : Ranked Twitter users using machine learning algorithms 
 \series bold
@@ -1345,7 +1398,7 @@ Media
 
 \begin_layout Itemize
 \noindent
-Stat 441: Classification Project
+Classification Course Project
 \begin_inset Note Note
 status collapsed
 
