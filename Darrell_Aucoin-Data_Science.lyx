@@ -1116,21 +1116,51 @@ height "1pt"
 \end_inset
 
 
+\series bold
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Training with Mislabeled Data and Improvements to Convolutional Text Classificat
+ion
+\series default
+: Investigated a model to correct noisy labels in training data.
+\series bold
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series default
+2018
+\begin_inset VSpace -12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Internship report for Masters in Applied Computing
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 
 \series bold
-\begin_inset CommandInset href
-LatexCommand href
-name "Autmatic Data Cleaning"
-target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Automatic_data_cleaning.pdf"
-literal "false"
-
-\end_inset
-
-
+Automatic Data Cleaning
 \series default
 : Investigated a model to correct noisy labels in training data.
 \series bold
@@ -1160,15 +1190,7 @@ Probabilistic Learning and Reasoning Course Project
 \noindent
 
 \series bold
-\begin_inset CommandInset href
-LatexCommand href
-name "Imputation of Missing Data using Gaussian Mixtures"
-target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Database_Reconstuction.pdf"
-literal "false"
-
-\end_inset
-
-
+Imputation of Missing Data using Gaussian Mixtures
 \series default
 : Investigated MCMC gaussian mixture models for data imputation.
 \series bold
@@ -1198,15 +1220,7 @@ Differentiable Inference and Generative Models course Project
 \noindent
 
 \series bold
-\begin_inset CommandInset href
-LatexCommand href
-name "Review of Genotype Imputation Algorithms"
-target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Genome_Imputation.pdf"
-literal "false"
-
-\end_inset
-
-
+Review of Genotype Imputation Algorithms
 \series default
 : Compared various genotype imputation algorithms
 \series bold
@@ -1371,15 +1385,7 @@ Funded by the Math Endowment Fund (MEF).
 \noindent
 
 \series bold
-\begin_inset CommandInset href
-LatexCommand href
-name "Determine Influence in Social Media"
-target "https://cdn.getforge.com/daucoin.getforge.io/1533955156/papers/Twitter_Project.pdf"
-literal "false"
-
-\end_inset
-
-
+Determine Influence in Social Media
 \series default
 : Ranked Twitter users using machine learning algorithms 
 \series bold
