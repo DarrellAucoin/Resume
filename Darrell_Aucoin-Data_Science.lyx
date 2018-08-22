@@ -174,7 +174,7 @@ literal "false"
 
 \end_inset
 
-, Personal: 
+, Website: 
 \begin_inset Flex URL
 status open
 
@@ -370,10 +370,10 @@ height "1pt"
 \series bold
 Machine Learning Researcher
 \series default
-, Interdata Laboratories
+, 
 \shape italic
 \emph on
- (
+
 \begin_inset CommandInset href
 LatexCommand href
 name "Datalogue"
@@ -382,7 +382,7 @@ literal "false"
 
 \end_inset
 
-), Montreal, QC.
+, Montreal, QC.
 \series bold
 \shape default
 \emph default
