@@ -506,9 +506,12 @@ Investigated layer activation of Neural Networks, helping Datalogue understand
 \end_inset
 
 
-\end_layout
+\series bold
 
-\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 \noindent
 
 \series bold
@@ -553,6 +556,11 @@ Provided software advice on R, SQL, and SPSS for graduate students
 \emph default
 
 \begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
