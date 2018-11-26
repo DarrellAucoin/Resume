@@ -406,6 +406,26 @@ May 2017-Aug 2018
 \emph on
 Researched, trained, and deployed Machine Learning models to help automatically
  prepare data
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\shape italic
+\emph on
+In Datalogue, I researched, trained, and deployed various machine learning
+ models to automatically prepare data.
+ Specifically, I worked on a segmentation model that breaks a string into
+ it's components, as well as anomaly detection for text columnar data using
+ word and character embeddings.
+ I also improved existing machine learning models by modifying the existing
+ models and cleaned data, increasing the categorical accuracy of one model
+ from 94% to 98%.
+\end_layout
+
+\end_inset
+
+
 \shape default
 \emph default
 
@@ -1039,7 +1059,7 @@ Relevant
 Courses: Inference for Big Data, Classification (Machine Learning), Data
  Visualisation, Function Estimation, Data Types (Python), Object-Orientated
  Programming (C++), Databases (SQL), Spatial Data Analysis, Longitudinal
- Data Analysis, Computational Linear Algebra
+ Data Analysis, Computational Linear Algebra, Time Series Analysis
 \emph on
 
 \begin_inset Note Note
@@ -1178,7 +1198,7 @@ Automatic Data Cleaning
 
 
 \series default
-2016
+2017
 \begin_inset VSpace -12pt
 \end_inset
 
@@ -1287,17 +1307,7 @@ literal "false"
 \noindent
 Lead a team in providing various statistics related educational and social
  activities for fellow students.
-\begin_inset Note Note
-status open
-
-\begin_layout Itemize
-\noindent
-
-\end_layout
-
-\end_inset
-
-
+ 
 \begin_inset VSpace -6pt
 \end_inset
 
