@@ -1,0 +1,342 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass letter
+\begin_preamble
+% Cover letter using letter.cls
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+% the following commands control the margins:
+\topmargin=-1in    % Make letterhead start about 1 inch from top of page
+\textheight=8in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Signature
+Darrell Aucoin
+\end_layout
+
+\begin_layout Send To Address
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+
+\series bold
+\size large
+Darrell Aucoin
+\size default
+ 
+\begin_inset Newline newline
+\end_inset
+
+4119 Esplanade Avenue
+\begin_inset Newline newline
+\end_inset
+
+Montreal, QC 
+\begin_inset Newline newline
+\end_inset
+
+H2W 1S9
+\begin_inset Newline newline
+\end_inset
+
+(514) 802-1234
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "darrell.aucoin@edu.uwaterloo.ca"
+target "darrell.aucoin@edu.uwaterloo.ca"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Website: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://daucoin.getforge.io/"
+target "https://daucoin.getforge.io/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Re: Data Scientist
+\end_layout
+
+\begin_layout Opening
+Julien:
+\end_layout
+
+\begin_layout Standard
+I'm a recent graduate from University of Toronto Masters of Science in Applied
+ Computing program with over a year work experience in AI at a startup called
+ Datalogue.
+ My undergrad was a B.Math in Statistics and Computational Math with a CS
+ minor from the University of Waterloo.
+ As such, I usually see Deep Learning and ML in general from a probabilistic
+ perspective.
+ For instance, I see Neural Networks as a broad category of models for approxima
+ting a probability distribution of values.
+ This difference in perspectives is a source of both conflict and insight.
+ As an example, I was talking about training data for a short text classifier
+ with a co-worker; he believed we should train on unique samples of the
+ data while I argued that the training data should be representational (includin
+g duplicates) of the data at inference.
+ In the end, we found that my perspective worked best there and that we
+ should keep the duplicates.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I am applying for the Data Scientist position advertised on LinkedIn.
+ I have a Master of Science in Applied Computing as well as B.Math in Statistics
+ and Computational Math.
+ I also have 1 year and 4 months work experience as a Machine Learning Researche
+r for Datalogue.
+ I have taken courses on Inference for Big Data, Classification (Machine
+ Learning), Function Estimation, Computational Inference, Object-Orientated
+ Software Development, Data Types and Structures, databases, as well as
+ taken several courses on Deep Learning including generative models.
+ Though my courses and work at Datalogue, I worked with tensorflow, keras,
+ Python, R, and SQL.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I have over a year machine learning work experience with Datalogue working
+ on various NLP (Natural Language Processing) models including classification,
+ segmentation, and anomaly detection.
+ The segmentation model breaks down strings down into it's components, the
+ main purpose of this model was to break addresses down into parts such
+ as street address, city, state, etc.
+ The anomaly detection model was designed to quickly find anomalies in text
+ column data, returning a ranking of possible entry anomalies usually between
+ a few seconds or a few minutes.
+ Both will become a Datalogue product/service in the future.
+\end_layout
+
+\begin_layout Standard
+I have also created and experimented with various machine learning models
+ within Datalogue.
+ I created a model that was designed to help training classifiers when working
+ with noisy labels (data that have a wrong label assigned to it).
+ I also created a model for classifying whole columns of text data.
+ This model would take in all of the text data in a column and classify
+ the column as a whole entity.
+ Initial results were very positive, reducing the loss by 1/50.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I have lead a group of 10 fellow students as President of 
+\begin_inset CommandInset href
+LatexCommand href
+name "University of Waterloo's Stats Club"
+target "http://csclub.uwaterloo.ca/~statsclub/"
+literal "false"
+
+\end_inset
+
+ for 2 years, demonstrating leadership and management skills.
+ Within the club I have made various presentations, from 
+\begin_inset CommandInset href
+LatexCommand href
+name "SQL"
+target "https://www.youtube.com/watch?v=GwwCI8Q7VX4"
+literal "false"
+
+\end_inset
+
+ to 
+\begin_inset CommandInset href
+LatexCommand href
+name "Hadoop"
+target "https://www.youtube.com/watch?v=t7K69-1SubU"
+literal "false"
+
+\end_inset
+
+ and Big Data Tools for 30 or more people (which can be seen on youtube
+ channel 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "UW Stats Club"
+target "https://www.youtube.com/channel/UCrEjoW5YZj_IMAnxgOfXL-g"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+).
+ I am proficient in SQL and I consider it my favorite data wrangling tool.
+ I have presented various SQL Workshops for University of Waterloo Stats
+ Club.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+I have worked with Hadoop and Apache Spark under two Undergraduate Research
+ Terms at University of Waterloo.
+ In my spare time I constructed a small Hadoop cluster using single board
+ computers to get a broader knowledge on Hadoop, all generously funded by
+ University of Waterloo's 
+\begin_inset CommandInset href
+LatexCommand href
+name "Math Endowment Fund"
+target "https://www.student.math.uwaterloo.ca/~mefcom/"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thank you for your time and consideration.
+ You can contact me at my cell (514)-802-1234, or e-mail me at 
+\begin_inset CommandInset href
+LatexCommand href
+name "darrell.aucoin@edu.uwaterloo.ca"
+target "darrell.aucoin@edu.uwaterloo.ca"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+ I look forward to speaking with you further regarding my qualifications.
+\end_layout
+
+\begin_layout Closing
+Sincerely,
+\end_layout
+
+\begin_layout encl
+Darrell Aucoin
+\end_layout
+
+\end_body
+\end_document
